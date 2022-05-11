@@ -1,0 +1,116 @@
+input:focus,
+select:focus {
+  outline: none;
+}
+.username {
+  color: white;
+  font-size: 30px;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  position: absolute;
+  width: 50%;
+  height: 15%;
+  transform: translateY(268px);
+}
+.start {
+  color: white;
+
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  position: absolute;
+  width: 50%;
+  height: 15%;
+  transform: translateY(300px);
+}
+a:hover {
+  color: white;
+}
+.bgbutton {
+  background-image: url(./img/pt/4f1c7a32-2d46-436c-835a-bae0f0cc40ac.png);
+  background-repeat: no-repeat;
+  background-size: 100% 120px;
+}
+#a {
+  background-image: url(./img/pt/25a73203-e743-49ff-9698-74a206e57042.png);
+  background-repeat: no-repeat;
+  background-size: 90% 150px;
+}
+#b {
+  background-image: url(./img/pt/41a2b318-fefb-44d9-860c-8d9202a4f4c6.png);
+  background-repeat: no-repeat;
+  background-size: 90% 150px;
+}
+#c {
+  background-image: url(./img/pt/46f19252-90f7-4efd-82a0-7f6957d685c5.png);
+  background-repeat: no-repeat;
+  background-size: 90% 150px;
+}
+#d {
+  background-image: url(./img/pt/4fb96b74-b00a-40d7-a92f-cdd898acdc25.png);
+  background-repeat: no-repeat;
+  background-size: 90% 150px;
+}
+.hover :hover {
+  background-color: #e6e6e6;
+  width: 100%;
+}
+.hover {
+  width: 100%;
+}
+
+@media screen and (max-width: 2560px) {
+  .imgupdt {
+    width: 70px;
+    height: 70px;
+  }
+  .update {
+    width: 20%;
+    margin-right: 240px;
+    transform: translateY(220px);
+  }
+  .logo {
+    width: 120px;
+    height: 40px;
+  }
+  .input1 {
+    width: 100%;
+  }
+  .input {
+    width: 80%;
+  }
+  #myUL {
+    width: 100%;
+  }
+  .home,
+  .refresh {
+    font-size: 13px;
+  }
+  .hh {
+    transform: translateY(10px);
+    width: 20%;
+    height: 40%;
+  }
+}
+body {
+  background-image: url(./img/bg/1bc6b2e8-62d4-4976-8351-85f455067d86.png);
+  background-repeat: no-repeat;
+  background-size: 100% 1200px;
+}
+@media screen and (max-width: 1440px) {
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 768px) {
+  body {
+    background-image: url(./img/bg/1bc6b2e8-62d4-4976-8351-85f455067d86.png);
+    background-repeat: no-repeat;
+    background-size: 768px 800px;
+  }
+}
+@media screen and (max-width: 680px) {
+}
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 320px) {
+}
